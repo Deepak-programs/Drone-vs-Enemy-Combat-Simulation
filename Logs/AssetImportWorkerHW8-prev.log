@@ -1,0 +1,323 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-deepak" at "2026-11-08T08:32:44.2691831Z"
+Built from '6000.6/respin/6000.6.8f1-b6138bef9630' branch; Version is '6000.6.8f1 (237b6593792b) revision 2325349'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) Professional' Language: 'en' Physical Memory: 14229 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-11-08T08:32:44Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 2880, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              0810ce8057e0414fa07f1ab754743826
+  Correlation Id:          f190b695a876ddbfa143017b154d281e
+  External correlation Id: 6918160848384711742
+  Machine Id:              nnF+5ehaMYoYVVGWBiP45xV9K04=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-deepak" (connect: 0.00s, validation: 0.00s, handshake: 0.09s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-deepak-notifications" at "2026-11-08T08:32:44.362522Z"
+[Licensing::Module] Licensing Background thread has ended after 0.09s
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.6.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorkerHW8
+-projectPath
+C:/Users/dk965/Documents/Games Projects/Platfrom Game/Drone vs Enemy Combat Simulation
+-logFile
+Logs/AssetImportWorkerHW8.log
+-srvPort
+64902
+-parentPid
+13260
+-analyticsCloudUserId
+13469060600166
+-analyticsCloudProjectId
+70e88cc8-e131-49c0-89bc-184c6330ceee
+-analyticsLocalProjectId
+fb2e29695a274f84d919a67274aea499
+-editorAnalyticsEnabled
+1
+-cbmEditorLicense
+c1132b4471eb7c76d205ceb40baf4f133fe39498
+-cbmMachineId
+nnF+5ehaMYoYVVGWBiP45xV9K04=
+-licensingIpc
+LicenseClient-deepak
+-noDiagnosticSwitchPersistentStore
+-job-worker-count
+5
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+-force-d3d12
+-name
+AssetImport
+Successfully changed project path to: C:/Users/dk965/Documents/Games Projects/Platfrom Game/Drone vs Enemy Combat Simulation
+C:/Users/dk965/Documents/Games Projects/Platfrom Game/Drone vs Enemy Combat Simulation
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=1"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [22924]  Target information:
+
+Player connection [22924]  * "[IP] 192.168.1.42 [Port] 0 [Flags] 2 [Guid] 90123388 [EditorId] 90123388 [Version] 1048832 [Id] WindowsEditor(7,Deepak-Kumar) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [22924]  * "[IP] 192.168.43.1 [Port] 0 [Flags] 2 [Guid] 90123388 [EditorId] 90123388 [Version] 1048832 [Id] WindowsEditor(7,Deepak-Kumar) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [22924]  * "[IP] 192.168.52.1 [Port] 0 [Flags] 2 [Guid] 90123388 [EditorId] 90123388 [Version] 1048832 [Id] WindowsEditor(7,Deepak-Kumar) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [22924]  * "[IP] 172.25.144.1 [Port] 0 [Flags] 2 [Guid] 90123388 [EditorId] 90123388 [Version] 1048832 [Id] WindowsEditor(7,Deepak-Kumar) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [22924] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [22924] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+Initialising UDS system complete:
+  - System type: Client
+  - Resource namespace: 5ea50459b721ebfc6c3a04b27531dc8f
+  - Shared memory size: 1073741824
+  - Command buffer id: 1052576
+  - Command buffer size: 8192
+  - Hashmap size: 4194304
+  - Service connected: true
+  - Service working directory: Library/DataStore/
+Refreshing native plugins compatible for Editor in 122.56 ms, found 3 plugins.
+[Physics::Module] Selected backend (deferred post-plugins).
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Initialize engine version: 6000.6.8f1 (237b6593792b)
+[EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=262144, entitiesPerBlock=1024, blocksPerSlotPage=0, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.6.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/dk965/Documents/Games Projects/Platfrom Game/Drone vs Enemy Combat Simulation/Assets
+Forcing GfxDevice: Direct3D 12
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.1]
+    Renderer:        AMD Radeon(TM) Graphics (ID=0x1638)
+    Vendor:          ATI
+    VRAM:            7114 MB
+    App VRAM Budget: 8433 MB
+    Driver:          31.0.21923.1000
+    Unified Memory Architecture
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.6.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.6.8f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.6.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.6.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56556
+CodeReloadManager initialized
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.8f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002100 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  1.507 seconds
+Domain Reload Profiling: 3104ms
+	BeginReloadAssembly (143ms)
+	RebuildCommonClasses (5ms)
+	RebuildNativeTypeToScriptingClass (125ms)
+	initialDomainReloadingComplete (78ms)
+	LoadAllAssembliesAndSetupDomain (1245ms)
+		LoadAssemblies (140ms)
+		TypeCache.Refresh (1131ms)
+			TypeCache.ScanAssembly (883ms)
+		AnalyzeDomain (1ms)
+	FinalizeReload (1508ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (111ms)
+			ProcessInitializeOnLoadAttributes (108ms)
+			ProcessInitializeOnLoadMethodAttributes (1195ms)
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Initializing Unity extensions:
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-8957-WDD4-UPMQ-4SU5-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: 2026-12-15T06:18:31Z
+[Licensing::Module] License group:
+  Id: 13469060600166-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.906 seconds
+Domain Reload Profiling: 1878ms
+	BeginReloadAssembly (237ms)
+		DisableScriptedObjects (10ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (9ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (66ms)
+	LoadAllAssembliesAndSetupDomain (641ms)
+		LoadAssemblies (393ms)
+		TypeCache.Refresh (153ms)
+			TypeCache.ScanAssembly (139ms)
+		AnalyzeDomain (62ms)
+			BuildScriptInfoCaches (58ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (907ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (109ms)
+			ProcessInitializeOnLoadAttributes (285ms)
+			ProcessInitializeOnLoadMethodAttributes (92ms)
+			AfterProcessingInitializeOnLoad (9ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+AcceleratorClientConnectionCallback - disconnected - :0
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Unloading 66 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5094 unused Assets / (10.9 MB). Loaded Objects now: 5942.
+Memory consumption went from 310.5 MB to 299.6 MB.
+Total: 9.283000 ms (FindLiveObjects: 0.741500 ms CreateObjectMapping: 0.250300 ms MarkObjects: 5.298100 ms  DeleteObjects: 2.799400 ms)
+
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-08T08:33:23.8205374Z
+  Time since last request: 17931.59427430000142 seconds.
+  importAddress: GUID: 02fe127be7c987640bef36b78efaf2cf - Path: Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Run/HumanM@Run01_BackwardLeft.fbx - Importer: PreviewImporter
+Importing 'GUID: 02fe127be7c987640bef36b78efaf2cf - Path: Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Run/HumanM@Run01_BackwardLeft.fbx - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 02fe127be7c987640bef36b78efaf2cf' -> (Import Result ID: '79991efd67536c94bf18da14aedf4b9a') in 0.043 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fe0a6d6c7bda5c10e7450212ea58d1bb DependenciesID=af2146694d7629b3d49912a2fb0382f3 StaticDependenciesID=a3dcb4a133da8a11e1f0b840f1fd7a94 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-08T08:35:38.4515692Z
+  Time since last request: 134.57755119999999 seconds.
+  importAddress: GUID: bba9c60ad1947c54cad2c1e6eee0102a - Path: Assets/Kevin Iglesias/Human Animations/Animations/Male/Combat/HumanM@Damage02.fbx - Importer: PreviewImporter
+Importing 'GUID: bba9c60ad1947c54cad2c1e6eee0102a - Path: Assets/Kevin Iglesias/Human Animations/Animations/Male/Combat/HumanM@Damage02.fbx - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: bba9c60ad1947c54cad2c1e6eee0102a' -> (Import Result ID: 'd3af719512b34f063c2e02d50831d515') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b2d0da4c14dbc4b3f8ea6c61bbe00ecb DependenciesID=4312ee38f8cd2aac7ffb16002c422ed5 StaticDependenciesID=14018f8cb8c11b5880148c40b9c523ea 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-08T08:35:38.4635301Z
+  Time since last request: 0.0006033 seconds.
+  importAddress: GUID: 467a90ea10589e644a7cd6578adc8fb7 - Path: Assets/Kevin Iglesias/Human Animations/Animations/Male/Combat/HumanM@Death01.fbx - Importer: PreviewImporter
+Importing 'GUID: 467a90ea10589e644a7cd6578adc8fb7 - Path: Assets/Kevin Iglesias/Human Animations/Animations/Male/Combat/HumanM@Death01.fbx - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 467a90ea10589e644a7cd6578adc8fb7' -> (Import Result ID: '3818d61d62665be91d4963f36e1c4ba6') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=019ca84e0ff0b283314ae87cc9242054 DependenciesID=6a437b0258bceada3201a721bd301be0 StaticDependenciesID=83ae8c0dd19b97553200ee6f72944611 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-08T08:35:38.4737617Z
+  Time since last request: 0.0005894 seconds.
+  importAddress: GUID: b570f64014a3c4c4cb76eb9b291370ce - Path: Assets/Kevin Iglesias/Human Animations/Animations/Male/Combat/HumanM@Death03.fbx - Importer: PreviewImporter
+Importing 'GUID: b570f64014a3c4c4cb76eb9b291370ce - Path: Assets/Kevin Iglesias/Human Animations/Animations/Male/Combat/HumanM@Death03.fbx - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: b570f64014a3c4c4cb76eb9b291370ce' -> (Import Result ID: '866890a8888ebf148dddf01f782a1a09') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e6da51d3702213d6a5ecaa6f39bef1c8 DependenciesID=6ade665e6319d4e5daa81b7d09305d2d StaticDependenciesID=dce26cd8340015885858532dc15b832b 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-08T08:36:16.1958325Z
+  Time since last request: 37.7117882 seconds.
+  importAddress: GUID: 5dcc71b9770f2554e8fd3ea0d6c1e1f4 - Path: Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Walk/HumanM@Walk01_BackwardLeft.fbx - Importer: PreviewImporter
+Importing 'GUID: 5dcc71b9770f2554e8fd3ea0d6c1e1f4 - Path: Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Walk/HumanM@Walk01_BackwardLeft.fbx - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 5dcc71b9770f2554e8fd3ea0d6c1e1f4' -> (Import Result ID: '63e2358d1d77c33958cbe69f9a8787d9') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cda4c7559fc2945ad959a505594c7ab8 DependenciesID=736d887fc8ea53520a8abba6f2a6a527 StaticDependenciesID=aef16c4e56bcc6595a07d5c5e479d966 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-08T08:36:16.2096633Z
+  Time since last request: 0.0030423 seconds.
+  importAddress: GUID: 2cd37dc84c089ac4981cd6d36abd33eb - Path: Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Walk/HumanM@Walk01_Right.fbx - Importer: PreviewImporter
+Importing 'GUID: 2cd37dc84c089ac4981cd6d36abd33eb - Path: Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Walk/HumanM@Walk01_Right.fbx - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 2cd37dc84c089ac4981cd6d36abd33eb' -> (Import Result ID: '7cbd52c352133e6f6b79bcab9c953d9a') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=addd785ee08c1e8cfd0aeacb753edd4b DependenciesID=ff829aba576bc52c41e5396a83ee8dd3 StaticDependenciesID=27744b787c3de777b1bc6aab647c3a11 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-08T08:36:16.2253909Z
+  Time since last request: 0.0003738 seconds.
+  importAddress: GUID: dd9cde7e792f5f946b091935d7903296 - Path: Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Walk/HumanM@Walk01_ForwardRight.fbx - Importer: PreviewImporter
+Importing 'GUID: dd9cde7e792f5f946b091935d7903296 - Path: Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Walk/HumanM@Walk01_ForwardRight.fbx - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: dd9cde7e792f5f946b091935d7903296' -> (Import Result ID: 'c364fc9a2d59cab7b672cea519265d32') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=007726e03c30abb977dbebdce440e5c2 DependenciesID=833b7394f0396a1672fbd8a37b4b2096 StaticDependenciesID=e6ed612dbe9cf07de21d64905f41e9f7 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-08T08:36:16.2378759Z
+  Time since last request: 0.0003714 seconds.
+  importAddress: GUID: b702e254d5e77904da0429cfcbc77709 - Path: Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Walk/HumanM@Walk01_Left.fbx - Importer: PreviewImporter
+Importing 'GUID: b702e254d5e77904da0429cfcbc77709 - Path: Assets/Kevin Iglesias/Human Animations/Animations/Male/Movement/Walk/HumanM@Walk01_Left.fbx - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: b702e254d5e77904da0429cfcbc77709' -> (Import Result ID: '94905dbfdc148e33725c8d9a1f33a132') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7441caa24afbb34ada8b8c87a2d178f6 DependenciesID=ae056e1391c19fb7441c47d3083c246f StaticDependenciesID=672d8c7df03f586ae622ebe9572aa8b8 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AcceleratorClientConnectionCallback - disconnected - :0
+AssetImportWorker is now disconnected from the server
+Process exiting
+[ExitDontLaunchBugReporter] Exiting without the bug reporter. Application will exit with return code 0

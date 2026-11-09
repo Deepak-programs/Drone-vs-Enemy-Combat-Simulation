@@ -1,0 +1,440 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-deepak" at "2026-11-08T05:43:47.4637747Z"
+Built from '6000.6/respin/6000.6.8f1-b6138bef9630' branch; Version is '6000.6.8f1 (237b6593792b) revision 2325349'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) Professional' Language: 'en' Physical Memory: 14229 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-11-08T05:43:47Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 2880, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              e57f12ef9d6b4dfea2e1cb7f68bb1d3e
+  Correlation Id:          f190b695a876ddbfa143017b154d281e
+  External correlation Id: 3315884535838722352
+  Machine Id:              nnF+5ehaMYoYVVGWBiP45xV9K04=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-deepak" (connect: 0.00s, validation: 0.00s, handshake: 0.03s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-deepak-notifications" at "2026-11-08T05:43:47.4965772Z"
+[Licensing::Module] Licensing Background thread has ended after 0.03s
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.6.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorkerHW5
+-projectPath
+C:/Users/dk965/Documents/Games Projects/Platfrom Game/Drone vs Enemy Combat Simulation
+-logFile
+Logs/AssetImportWorkerHW5.log
+-srvPort
+64902
+-parentPid
+13260
+-analyticsCloudUserId
+13469060600166
+-analyticsCloudProjectId
+70e88cc8-e131-49c0-89bc-184c6330ceee
+-analyticsLocalProjectId
+fb2e29695a274f84d919a67274aea499
+-editorAnalyticsEnabled
+1
+-cbmEditorLicense
+c1132b4471eb7c76d205ceb40baf4f133fe39498
+-cbmMachineId
+nnF+5ehaMYoYVVGWBiP45xV9K04=
+-licensingIpc
+LicenseClient-deepak
+-noDiagnosticSwitchPersistentStore
+-job-worker-count
+5
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+-force-d3d12
+-name
+AssetImport
+Successfully changed project path to: C:/Users/dk965/Documents/Games Projects/Platfrom Game/Drone vs Enemy Combat Simulation
+C:/Users/dk965/Documents/Games Projects/Platfrom Game/Drone vs Enemy Combat Simulation
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=1"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [17256]  Target information:
+
+Player connection [17256]  * "[IP] 192.168.1.42 [Port] 0 [Flags] 2 [Guid] 2010009542 [EditorId] 2010009542 [Version] 1048832 [Id] WindowsEditor(7,Deepak-Kumar) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [17256]  * "[IP] 192.168.43.1 [Port] 0 [Flags] 2 [Guid] 2010009542 [EditorId] 2010009542 [Version] 1048832 [Id] WindowsEditor(7,Deepak-Kumar) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [17256]  * "[IP] 192.168.52.1 [Port] 0 [Flags] 2 [Guid] 2010009542 [EditorId] 2010009542 [Version] 1048832 [Id] WindowsEditor(7,Deepak-Kumar) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [17256]  * "[IP] 172.25.144.1 [Port] 0 [Flags] 2 [Guid] 2010009542 [EditorId] 2010009542 [Version] 1048832 [Id] WindowsEditor(7,Deepak-Kumar) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [17256] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [17256] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+Initialising UDS system complete:
+  - System type: Client
+  - Resource namespace: 5ea50459b721ebfc6c3a04b27531dc8f
+  - Shared memory size: 1073741824
+  - Command buffer id: 1052576
+  - Command buffer size: 8192
+  - Hashmap size: 4194304
+  - Service connected: true
+  - Service working directory: Library/DataStore/
+Refreshing native plugins compatible for Editor in 2.28 ms, found 3 plugins.
+[Physics::Module] Selected backend (deferred post-plugins).
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Initialize engine version: 6000.6.8f1 (237b6593792b)
+[EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=262144, entitiesPerBlock=1024, blocksPerSlotPage=0, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.6.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/dk965/Documents/Games Projects/Platfrom Game/Drone vs Enemy Combat Simulation/Assets
+Forcing GfxDevice: Direct3D 12
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.1]
+    Renderer:        AMD Radeon(TM) Graphics (ID=0x1638)
+    Vendor:          ATI
+    VRAM:            7114 MB
+    App VRAM Budget: 8433 MB
+    Driver:          31.0.21923.1000
+    Unified Memory Architecture
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.6.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.6.8f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.6.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.6.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56508
+CodeReloadManager initialized
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.8f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002385 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.689 seconds
+Domain Reload Profiling: 1292ms
+	BeginReloadAssembly (171ms)
+	RebuildCommonClasses (6ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (77ms)
+	LoadAllAssembliesAndSetupDomain (330ms)
+		LoadAssemblies (167ms)
+		TypeCache.Refresh (216ms)
+			TypeCache.ScanAssembly (202ms)
+		AnalyzeDomain (1ms)
+	FinalizeReload (690ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (105ms)
+			ProcessInitializeOnLoadAttributes (104ms)
+			ProcessInitializeOnLoadMethodAttributes (389ms)
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Initializing Unity extensions:
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-8957-WDD4-UPMQ-4SU5-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: 2026-12-15T06:18:31Z
+[Licensing::Module] License group:
+  Id: 13469060600166-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.811 seconds
+Domain Reload Profiling: 1757ms
+	BeginReloadAssembly (230ms)
+		DisableScriptedObjects (9ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (9ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (65ms)
+	LoadAllAssembliesAndSetupDomain (626ms)
+		LoadAssemblies (395ms)
+		TypeCache.Refresh (134ms)
+			TypeCache.ScanAssembly (121ms)
+		AnalyzeDomain (64ms)
+			BuildScriptInfoCaches (59ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (812ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (104ms)
+			ProcessInitializeOnLoadAttributes (279ms)
+			ProcessInitializeOnLoadMethodAttributes (83ms)
+			AfterProcessingInitializeOnLoad (8ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+AcceleratorClientConnectionCallback - disconnected - :0
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Unloading 65 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5088 unused Assets / (10.7 MB). Loaded Objects now: 5938.
+Memory consumption went from 310.0 MB to 299.4 MB.
+Total: 10.448300 ms (FindLiveObjects: 0.800900 ms CreateObjectMapping: 0.339800 ms MarkObjects: 6.250800 ms  DeleteObjects: 2.878500 ms)
+
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-08T05:43:54.6419236Z
+  Time since last request: 7762.41566090000015 seconds.
+  importAddress: GUID: 738922b15bc0ef747a955c00ab83f1de - Path: Assets/StarSparrow/Materials/StarSparrow_Grey.mat - Importer: PreviewImporter
+Importing 'GUID: 738922b15bc0ef747a955c00ab83f1de - Path: Assets/StarSparrow/Materials/StarSparrow_Grey.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 738922b15bc0ef747a955c00ab83f1de' -> (Import Result ID: '6b5942a10e7b569f52b0ac2127c232e6') in 0.474 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=483e53607c8db9b6341f89951f0c55e3 DependenciesID=08b0de4a54ac40d6e154aa1ad3e5957e StaticDependenciesID=f3b415f03ffce54b03a7c6cc2c878e7d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 64 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 64 unused Assets / (6.0 MB). Loaded Objects now: 6095.
+Memory consumption went from 320.3 MB to 314.3 MB.
+Total: 21.141700 ms (FindLiveObjects: 0.603400 ms CreateObjectMapping: 0.131700 ms MarkObjects: 16.294800 ms  DeleteObjects: 3.779300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-08T05:45:35.1623375Z
+  Time since last request: 100.03455769999999 seconds.
+  importAddress: GUID: 3ed809d028eefbb4ca5472e0a5c732a0 - Path: Assets/Drone/Art/material/blue.mat - Importer: PreviewImporter
+Importing 'GUID: 3ed809d028eefbb4ca5472e0a5c732a0 - Path: Assets/Drone/Art/material/blue.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 3ed809d028eefbb4ca5472e0a5c732a0' -> (Import Result ID: 'c3891be2883e4502440bb3189a6a2040') in 0.034 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=293983462364664a421ca7d2c45bbd4b DependenciesID=1b56ecf383f45cbe84173ee663468824 StaticDependenciesID=ec0f95b81764445aff4d9012020dfeac 
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-08T05:45:35.2065944Z
+  Time since last request: 0.0003716 seconds.
+  importAddress: GUID: 719efd02f6cfa794ea0a203cf90365a6 - Path: Assets/Drone/Art/material/grey.mat - Importer: PreviewImporter
+Importing 'GUID: 719efd02f6cfa794ea0a203cf90365a6 - Path: Assets/Drone/Art/material/grey.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 719efd02f6cfa794ea0a203cf90365a6' -> (Import Result ID: '52380055ba08fbdd9f7a215454e75613') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4875488b2ecf8bbc99b0dae5ccede5bb DependenciesID=6c6376f99ac22ac72ab8812ee4477e8c StaticDependenciesID=29e3f1789f2abb3e7f4a0ae3fdc035ff 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-08T05:45:35.2269052Z
+  Time since last request: 0.0011688 seconds.
+  importAddress: GUID: 79ae26eea3bce554d86409e78c478c23 - Path: Assets/Drone/Art/material/Surface Plane.mat - Importer: PreviewImporter
+Importing 'GUID: 79ae26eea3bce554d86409e78c478c23 - Path: Assets/Drone/Art/material/Surface Plane.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 79ae26eea3bce554d86409e78c478c23' -> (Import Result ID: '931ed44f95deed1296119b01905798c8') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3e25921b9594a5fc7188e00cce37c559 DependenciesID=62edd5bd9f5985dcf4829868396d3142 StaticDependenciesID=2cf759a1d47c48a0c6a1c82e0de4c4c8 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-08T05:45:35.2480147Z
+  Time since last request: 0.0003738 seconds.
+  importAddress: GUID: 7ce88dd9da3c1b4439824758a237eb28 - Path: Assets/Drone/Art/material/orange.mat - Importer: PreviewImporter
+Importing 'GUID: 7ce88dd9da3c1b4439824758a237eb28 - Path: Assets/Drone/Art/material/orange.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 7ce88dd9da3c1b4439824758a237eb28' -> (Import Result ID: '6ae11179d608919db6b6037e004a4782') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=39b6588a52c0d3ae46921c1a1ea1a901 DependenciesID=a2db1ba21b5e8ea0f660ba975df7210c StaticDependenciesID=30b15092585c8c5943c80e4bb4699c89 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 64 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 65 unused Assets / (6.0 MB). Loaded Objects now: 6094.
+Memory consumption went from 320.1 MB to 314.1 MB.
+Total: 9.391200 ms (FindLiveObjects: 0.579800 ms CreateObjectMapping: 0.131900 ms MarkObjects: 6.542000 ms  DeleteObjects: 1.967200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-08T05:46:25.9514889Z
+  Time since last request: 50.6859887 seconds.
+  importAddress: GUID: c53e58c59cba20e4ab6f2080fbdafb5f - Path: Assets/Drone/prefab/drone Black.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0F
+Importing 'GUID: c53e58c59cba20e4ab6f2080fbdafb5f - Path: Assets/Drone/prefab/drone Black.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0F' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0F)
+Imported 'GUID: c53e58c59cba20e4ab6f2080fbdafb5f' -> (Import Result ID: '060bee449d764adce577e9e4409be6f6') in 0.089 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f13a2a02780206169da9d6fdf695bc05 DependenciesID=bab48902ec0c70698ff193ec51f12f02 StaticDependenciesID=38895ba8305158da561d195afab85233 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-08T05:46:26.053516Z
+  Time since last request: 0.0003437 seconds.
+  importAddress: GUID: 32e41ab59c2adc94d8198e020f3c46de - Path: Assets/Scenes/SampleScene/NavMesh-AI Surface Ground.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 32e41ab59c2adc94d8198e020f3c46de - Path: Assets/Scenes/SampleScene/NavMesh-AI Surface Ground.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 32e41ab59c2adc94d8198e020f3c46de' -> (Import Result ID: '3a1aa8844daf9c540c0522657bed2fa4') in 0.017 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d6fe2adeb5c1e143ef0c3eacfa628502 DependenciesID=b22899a5fd3389f66eba330df92f42ef StaticDependenciesID=c1528ef48cae29452882d67e4dc944f8 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-08T05:46:26.4932138Z
+  Time since last request: 0.4132513 seconds.
+  importAddress: GUID: 11ccefd033eaf7945856bf0626ea678e - Path: Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Soldier Animations/Prefabs/SoldierAssaultRifleM.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0F
+Importing 'GUID: 11ccefd033eaf7945856bf0626ea678e - Path: Assets/Kevin Iglesias/Human Animations/Unity Demo Scenes/Human Soldier Animations/Prefabs/SoldierAssaultRifleM.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0F' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0F)
+Imported 'GUID: 11ccefd033eaf7945856bf0626ea678e' -> (Import Result ID: '140708dac88b2d6dfcd61b8a2a136092') in 0.144 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ace806cb3b63a20963ffffc1941ad758 DependenciesID=138d0748b2384504bc0d63ce33243b1a StaticDependenciesID=f8ea1a07ed3752f9f5d3d2c72e1d50fc 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 864
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 65 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 65 unused Assets / (6.1 MB). Loaded Objects now: 6094.
+Memory consumption went from 323.8 MB to 317.7 MB.
+Total: 9.489500 ms (FindLiveObjects: 0.579500 ms CreateObjectMapping: 0.117600 ms MarkObjects: 6.649200 ms  DeleteObjects: 1.964700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-08T05:47:00.8762549Z
+  Time since last request: 34.2247363 seconds.
+  importAddress: GUID: 3ed809d028eefbb4ca5472e0a5c732a0 - Path: Assets/Drone/Art/material/blue.mat - Importer: PreviewImporter
+Importing 'GUID: 3ed809d028eefbb4ca5472e0a5c732a0 - Path: Assets/Drone/Art/material/blue.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 3ed809d028eefbb4ca5472e0a5c732a0' -> (Import Result ID: '34b028944c9540e81202bad6adfa08b1') in 3.818 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4ad02bb9df965a2021ffc5e12eb6b1d0 DependenciesID=cffcd09bbefc7119371f431594393326 StaticDependenciesID=c5022eff7bbe69ca03b380ce66e83407 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-08T05:47:04.7038006Z
+  Time since last request: 0.0004819 seconds.
+  importAddress: GUID: 3ed809d028eefbb4ca5472e0a5c732a0 - Path: Assets/Drone/Art/material/blue.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 3ed809d028eefbb4ca5472e0a5c732a0 - Path: Assets/Drone/Art/material/blue.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 3ed809d028eefbb4ca5472e0a5c732a0' -> (Import Result ID: '30a364bdcffb7245f9993798462ce55a') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=95436c5517800311c2624b8bb1eff11d DependenciesID=926a1c7f7569babf52ab4833409027b8 StaticDependenciesID=e4d5d1979fdf476ec075ecf63b334d80 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-08T05:47:04.7217657Z
+  Time since last request: 0.0003688 seconds.
+  importAddress: GUID: 81142e5e933e7d2448770f8df09188b4 - Path: Assets/URPDefaultResources - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 81142e5e933e7d2448770f8df09188b4 - Path: Assets/URPDefaultResources - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 81142e5e933e7d2448770f8df09188b4' -> (Import Result ID: '3940cdcd45f99034c4438b0f03eeb603') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2476705e3d0de4ce869baa709e010b5b DependenciesID=785bb0644f692e88ccd5c0e26cfd5087 StaticDependenciesID=d20801088b71336d60aafad4241af60f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-08T05:47:04.7360519Z
+  Time since last request: 0.0004321 seconds.
+  importAddress: GUID: 7ce88dd9da3c1b4439824758a237eb28 - Path: Assets/Drone/Art/material/orange.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 7ce88dd9da3c1b4439824758a237eb28 - Path: Assets/Drone/Art/material/orange.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 7ce88dd9da3c1b4439824758a237eb28' -> (Import Result ID: '6ee45c4487c2a1768b371d90fbf02559') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cfe71d4197f841fa25505a0d2dba083a DependenciesID=ef38c8714fdf73b370e6e63b9f0fa50b StaticDependenciesID=8da38f57e7d8addd5575b7a537aeecf4 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-08T05:47:04.7493761Z
+  Time since last request: 0.0004301 seconds.
+  importAddress: GUID: 91d21386d1235164cb09fa2332de50b6 - Path: Assets/Drone/Art/material/White.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 91d21386d1235164cb09fa2332de50b6 - Path: Assets/Drone/Art/material/White.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 91d21386d1235164cb09fa2332de50b6' -> (Import Result ID: '16424f72bf5ca5d6229a66f3f3a85459') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8a0746c84c212d044216e8f42ec0fe10 DependenciesID=0a1da70c389926db2cfcbe31507e435e StaticDependenciesID=7719099e79092638b73c81c6427ffd2f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-08T05:47:04.7628654Z
+  Time since last request: 0.0003489 seconds.
+  importAddress: GUID: 4e009e94172ef3943b3a68831c591e45 - Path: Assets/Drone/Art/material/Green.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 4e009e94172ef3943b3a68831c591e45 - Path: Assets/Drone/Art/material/Green.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 4e009e94172ef3943b3a68831c591e45' -> (Import Result ID: '43063ca28ee545daf774e36641be5366') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b03239c2a4b1bc084e11a83adb0bd8e0 DependenciesID=ccb58920b50f6ac0f27ffcdd35afd9a5 StaticDependenciesID=a1f142683305b5c3973550b5c01aff2a 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-08T05:47:04.7765077Z
+  Time since last request: 0.0003376 seconds.
+  importAddress: GUID: 79ae26eea3bce554d86409e78c478c23 - Path: Assets/Drone/Art/material/Surface Plane.mat - Importer: PreviewImporter
+Importing 'GUID: 79ae26eea3bce554d86409e78c478c23 - Path: Assets/Drone/Art/material/Surface Plane.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 79ae26eea3bce554d86409e78c478c23' -> (Import Result ID: 'ebe7f99a4cbcf6c4342b46403d632033') in 0.020 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=32c0a67dee4d2d9fdb2f935b29c710ae DependenciesID=34e08c1006bdeb5a11431913164a78fc StaticDependenciesID=a0724e49cccc144620f75f4e7cff0f5c 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-08T05:47:04.8096174Z
+  Time since last request: 0.0005085 seconds.
+  importAddress: GUID: 576d977c80fff164c8a59dfe6d7b059f - Path: Assets/URPDefaultResources/Default_Forward_Renderer.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 576d977c80fff164c8a59dfe6d7b059f - Path: Assets/URPDefaultResources/Default_Forward_Renderer.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 576d977c80fff164c8a59dfe6d7b059f' -> (Import Result ID: 'f6cd56a3a9963602f1671fd2abec0e8a') in 0.028 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=87157b9e9a3167c72ff22ad22b8a2191 DependenciesID=fd5962e2a5f416bec511717b88865b76 StaticDependenciesID=afee65846459b1f5783fe3bccded8383 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-08T05:47:04.8487845Z
+  Time since last request: 0.0004137 seconds.
+  importAddress: GUID: c41c59688c87e204fbfefb5c2bed24fc - Path: Assets/Drone/Art/material/Red.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: c41c59688c87e204fbfefb5c2bed24fc - Path: Assets/Drone/Art/material/Red.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: c41c59688c87e204fbfefb5c2bed24fc' -> (Import Result ID: 'cb2936e5383ff6fb26a420e8ddebe5b3') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4209af6bf6bdb596d899bcf0aea6ebcd DependenciesID=66b03f4931a7de6ef92936176e571c21 StaticDependenciesID=eb3ac0ac6d923c7d0098a4b9da1da4c3 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 65 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 65 unused Assets / (6.1 MB). Loaded Objects now: 6094.
+Memory consumption went from 324.0 MB to 317.9 MB.
+Total: 9.962600 ms (FindLiveObjects: 0.548900 ms CreateObjectMapping: 0.107200 ms MarkObjects: 7.270000 ms  DeleteObjects: 1.859500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AcceleratorClientConnectionCallback - disconnected - :0
+AssetImportWorker is now disconnected from the server
+Process exiting
+[ExitDontLaunchBugReporter] Exiting without the bug reporter. Application will exit with return code 0

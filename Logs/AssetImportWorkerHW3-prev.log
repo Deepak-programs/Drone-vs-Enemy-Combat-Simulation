@@ -1,0 +1,450 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-deepak" at "2026-11-08T05:24:22.2764056Z"
+Built from '6000.6/respin/6000.6.8f1-b6138bef9630' branch; Version is '6000.6.8f1 (237b6593792b) revision 2325349'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) Professional' Language: 'en' Physical Memory: 14229 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-11-08T05:24:22Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 2880, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              cc4ba2b606a240f79afaf377395e00d5
+  Correlation Id:          f190b695a876ddbfa143017b154d281e
+  External correlation Id: 5552602317600204562
+  Machine Id:              nnF+5ehaMYoYVVGWBiP45xV9K04=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-deepak" (connect: 0.00s, validation: 0.00s, handshake: 0.11s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-deepak-notifications" at "2026-11-08T05:24:22.3843847Z"
+[Licensing::Module] Licensing Background thread has ended after 0.11s
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.6.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorkerHW3
+-projectPath
+C:/Users/dk965/Documents/Games Projects/Platfrom Game/Drone vs Enemy Combat Simulation
+-logFile
+Logs/AssetImportWorkerHW3.log
+-srvPort
+64902
+-parentPid
+13260
+-analyticsCloudUserId
+13469060600166
+-analyticsCloudProjectId
+70e88cc8-e131-49c0-89bc-184c6330ceee
+-analyticsLocalProjectId
+fb2e29695a274f84d919a67274aea499
+-editorAnalyticsEnabled
+1
+-cbmEditorLicense
+c1132b4471eb7c76d205ceb40baf4f133fe39498
+-cbmMachineId
+nnF+5ehaMYoYVVGWBiP45xV9K04=
+-licensingIpc
+LicenseClient-deepak
+-noDiagnosticSwitchPersistentStore
+-job-worker-count
+5
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+-force-d3d12
+-name
+AssetImport
+Successfully changed project path to: C:/Users/dk965/Documents/Games Projects/Platfrom Game/Drone vs Enemy Combat Simulation
+C:/Users/dk965/Documents/Games Projects/Platfrom Game/Drone vs Enemy Combat Simulation
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=1"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [15544]  Target information:
+
+Player connection [15544]  * "[IP] 192.168.1.42 [Port] 0 [Flags] 2 [Guid] 434830601 [EditorId] 434830601 [Version] 1048832 [Id] WindowsEditor(7,Deepak-Kumar) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [15544]  * "[IP] 192.168.43.1 [Port] 0 [Flags] 2 [Guid] 434830601 [EditorId] 434830601 [Version] 1048832 [Id] WindowsEditor(7,Deepak-Kumar) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [15544]  * "[IP] 192.168.52.1 [Port] 0 [Flags] 2 [Guid] 434830601 [EditorId] 434830601 [Version] 1048832 [Id] WindowsEditor(7,Deepak-Kumar) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [15544]  * "[IP] 172.25.144.1 [Port] 0 [Flags] 2 [Guid] 434830601 [EditorId] 434830601 [Version] 1048832 [Id] WindowsEditor(7,Deepak-Kumar) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [15544] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [15544] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+Initialising UDS system complete:
+  - System type: Client
+  - Resource namespace: 5ea50459b721ebfc6c3a04b27531dc8f
+  - Shared memory size: 1073741824
+  - Command buffer id: 1052576
+  - Command buffer size: 8192
+  - Hashmap size: 4194304
+  - Service connected: true
+  - Service working directory: Library/DataStore/
+Refreshing native plugins compatible for Editor in 176.29 ms, found 3 plugins.
+[Physics::Module] Selected backend (deferred post-plugins).
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Initialize engine version: 6000.6.8f1 (237b6593792b)
+[EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=262144, entitiesPerBlock=1024, blocksPerSlotPage=0, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.6.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/dk965/Documents/Games Projects/Platfrom Game/Drone vs Enemy Combat Simulation/Assets
+Forcing GfxDevice: Direct3D 12
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.1]
+    Renderer:        AMD Radeon(TM) Graphics (ID=0x1638)
+    Vendor:          ATI
+    VRAM:            7114 MB
+    App VRAM Budget: 8433 MB
+    Driver:          31.0.21923.1000
+    Unified Memory Architecture
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.6.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.6.8f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.6.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.6.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56504
+CodeReloadManager initialized
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.8f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002252 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  1.705 seconds
+Domain Reload Profiling: 3095ms
+	BeginReloadAssembly (168ms)
+	RebuildCommonClasses (5ms)
+	RebuildNativeTypeToScriptingClass (191ms)
+	initialDomainReloadingComplete (93ms)
+	LoadAllAssembliesAndSetupDomain (931ms)
+		LoadAssemblies (165ms)
+		TypeCache.Refresh (802ms)
+			TypeCache.ScanAssembly (533ms)
+		AnalyzeDomain (1ms)
+	FinalizeReload (1706ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (119ms)
+			ProcessInitializeOnLoadAttributes (129ms)
+			ProcessInitializeOnLoadMethodAttributes (1357ms)
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Initializing Unity extensions:
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-8957-WDD4-UPMQ-4SU5-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: 2026-12-15T06:18:31Z
+[Licensing::Module] License group:
+  Id: 13469060600166-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.916 seconds
+Domain Reload Profiling: 1906ms
+	BeginReloadAssembly (250ms)
+		DisableScriptedObjects (10ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (10ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (68ms)
+	LoadAllAssembliesAndSetupDomain (643ms)
+		LoadAssemblies (400ms)
+		TypeCache.Refresh (138ms)
+			TypeCache.ScanAssembly (124ms)
+		AnalyzeDomain (73ms)
+			BuildScriptInfoCaches (68ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (917ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (107ms)
+			ProcessInitializeOnLoadAttributes (289ms)
+			ProcessInitializeOnLoadMethodAttributes (84ms)
+			AfterProcessingInitializeOnLoad (9ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+AcceleratorClientConnectionCallback - disconnected - :0
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Unloading 65 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5088 unused Assets / (11.2 MB). Loaded Objects now: 5938.
+Memory consumption went from 310.4 MB to 299.2 MB.
+Total: 8.961000 ms (FindLiveObjects: 0.649000 ms CreateObjectMapping: 0.244200 ms MarkObjects: 5.086400 ms  DeleteObjects: 2.826300 ms)
+
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-08T05:24:33.0316089Z
+  Time since last request: 6600.8053461999998 seconds.
+  importAddress: GUID: dcdbafa8386db084794d27ea12244cf3 - Path: Assets/StarSparrow/Prefabs/Examples/StarSparrow2.prefab - Importer: PreviewImporter
+Importing 'GUID: dcdbafa8386db084794d27ea12244cf3 - Path: Assets/StarSparrow/Prefabs/Examples/StarSparrow2.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: dcdbafa8386db084794d27ea12244cf3' -> (Import Result ID: '9dc03f4b0e0f8aeb4d909cc48dfbcf60') in 3.534 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7959d3af8b2ca0e795799447270f01ae DependenciesID=bab137e07916b138c29c4011dbf3d752 StaticDependenciesID=428bd8b4f6472e233b8297af47501687 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 113
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-08T05:24:36.5778652Z
+  Time since last request: 0.0000282 seconds.
+  importAddress: GUID: 8f832d48ca93ed346860110453bd1801 - Path: Assets/StarSparrow/Prefabs/Examples/StarSparrow20.prefab - Importer: PreviewImporter
+Importing 'GUID: 8f832d48ca93ed346860110453bd1801 - Path: Assets/StarSparrow/Prefabs/Examples/StarSparrow20.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 8f832d48ca93ed346860110453bd1801' -> (Import Result ID: 'a49ee6c08f4c84a09b07f4235deffdb8') in 0.043 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ce2176b4ffaf351a2b45bc9f6537322e DependenciesID=d218d82014c65b00b13bda166704ceda StaticDependenciesID=8707392ba4d9b8f4ed0df1762dcefba8 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 116
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-08T05:24:36.6366492Z
+  Time since last request: 0.0013023 seconds.
+  importAddress: GUID: b839c310df641b543bfc3972f60667c7 - Path: Assets/StarSparrow/Prefabs/Examples/StarSparrow21.prefab - Importer: PreviewImporter
+Importing 'GUID: b839c310df641b543bfc3972f60667c7 - Path: Assets/StarSparrow/Prefabs/Examples/StarSparrow21.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: b839c310df641b543bfc3972f60667c7' -> (Import Result ID: 'f66ccdabe30ebe8cfe849fbfa11e56fe') in 0.036 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ca7c457e9674465669d364380266d292 DependenciesID=6f20c20093bf9a4f75db93216f58bfac StaticDependenciesID=ef4cb70a244585224b8412994c6260eb 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 89
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-08T05:24:36.6849621Z
+  Time since last request: 0.0012257 seconds.
+  importAddress: GUID: 7f3f4cd2e3df640469dcf6afcfe6941c - Path: Assets/StarSparrow/Prefabs/Examples/StarSparrow24.prefab - Importer: PreviewImporter
+Importing 'GUID: 7f3f4cd2e3df640469dcf6afcfe6941c - Path: Assets/StarSparrow/Prefabs/Examples/StarSparrow24.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 7f3f4cd2e3df640469dcf6afcfe6941c' -> (Import Result ID: 'd7b64e4038a0c485363271585da09917') in 0.036 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e1fe6d94fe204e8c1ea48fcf7593f1ec DependenciesID=bfd2c90bf7e8b9fbb44516a9ee106932 StaticDependenciesID=bdd44bc4172a18e9aeeeb6a27d99c26e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 104
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-08T05:24:36.7389638Z
+  Time since last request: 0.0012222 seconds.
+  importAddress: GUID: ce7ae4ea668759549a5b6d7f3bb69084 - Path: Assets/StarSparrow/Prefabs/Examples/StarSparrow39.prefab - Importer: PreviewImporter
+Importing 'GUID: ce7ae4ea668759549a5b6d7f3bb69084 - Path: Assets/StarSparrow/Prefabs/Examples/StarSparrow39.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: ce7ae4ea668759549a5b6d7f3bb69084' -> (Import Result ID: '1b5d208ed22fcd096a49a5b32fe34b24') in 0.031 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8245517673165f84b42f4ec9991b99fb DependenciesID=9991cd6daa64aea939575450a1426b80 StaticDependenciesID=5e814f16548ada781a6bfba022ab506d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-08T05:24:36.7822586Z
+  Time since last request: 0.0009585 seconds.
+  importAddress: GUID: 434e535a8bc82b749bcb6aaf2e6459ec - Path: Assets/StarSparrow/Prefabs/Examples/StarSparrow35.prefab - Importer: PreviewImporter
+Importing 'GUID: 434e535a8bc82b749bcb6aaf2e6459ec - Path: Assets/StarSparrow/Prefabs/Examples/StarSparrow35.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 434e535a8bc82b749bcb6aaf2e6459ec' -> (Import Result ID: 'ef0b7bbfc0438fab0308fd0bd8da2a05') in 0.030 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3e6950ce68c0fe369ddf1633b514c5cc DependenciesID=2a7cd9ee2e61e20dbe4f14f09e6765ac StaticDependenciesID=898ed5b44877beef52e7d140edf317f2 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 122
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-08T05:24:36.8233494Z
+  Time since last request: 0.0011073 seconds.
+  importAddress: GUID: 97d94c271ee5173458fe14b489940b04 - Path: Assets/StarSparrow/Prefabs/Examples/StarSparrow32.prefab - Importer: PreviewImporter
+Importing 'GUID: 97d94c271ee5173458fe14b489940b04 - Path: Assets/StarSparrow/Prefabs/Examples/StarSparrow32.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 97d94c271ee5173458fe14b489940b04' -> (Import Result ID: '006dbf77e1fb7a70f362feccd66b1b48') in 0.029 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3339e15e806edebb88b4cb655f7b5805 DependenciesID=eed2418bdaa0093cf5c17b2f9b9da311 StaticDependenciesID=3ad5412b2323fe4c047edd02ba101f56 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 98
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-08T05:24:36.8621367Z
+  Time since last request: 0.0011614 seconds.
+  importAddress: GUID: 19bc9763fa1de3a46b9e632135faf962 - Path: Assets/StarSparrow/Prefabs/Examples/StarSparrow12.prefab - Importer: PreviewImporter
+Importing 'GUID: 19bc9763fa1de3a46b9e632135faf962 - Path: Assets/StarSparrow/Prefabs/Examples/StarSparrow12.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 19bc9763fa1de3a46b9e632135faf962' -> (Import Result ID: '8ff36b511bc5829563e6e4a407fc5f42') in 0.032 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=841986b141dc543d10eb949bc1f6baa3 DependenciesID=1d8d88c5b7de9ad4d692841882a35dea StaticDependenciesID=45f95fc9ea95a850aef6ee3364f2c49c 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 110
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-08T05:24:36.905727Z
+  Time since last request: 0.0010166 seconds.
+  importAddress: GUID: f9484f254a697cf45af93f6899c53be0 - Path: Assets/StarSparrow/Prefabs/Examples/StarSparrow27.prefab - Importer: PreviewImporter
+Importing 'GUID: f9484f254a697cf45af93f6899c53be0 - Path: Assets/StarSparrow/Prefabs/Examples/StarSparrow27.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: f9484f254a697cf45af93f6899c53be0' -> (Import Result ID: '36eb05e3235fcf9d18ce8bd464963854') in 0.026 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d2e8f850e0c33105cc2f00034ecef9d9 DependenciesID=4dc6459addc5e6978e9099d0b5bdad3c StaticDependenciesID=a0d5765b75d9cd634c470c7c0c55eb0e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 107
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-08T05:24:36.9416063Z
+  Time since last request: 0.0011946 seconds.
+  importAddress: GUID: ac02b746f53c1d9469d0fc7ce156481e - Path: Assets/StarSparrow/Prefabs/Examples/StarSparrow14.prefab - Importer: PreviewImporter
+Importing 'GUID: ac02b746f53c1d9469d0fc7ce156481e - Path: Assets/StarSparrow/Prefabs/Examples/StarSparrow14.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: ac02b746f53c1d9469d0fc7ce156481e' -> (Import Result ID: '4ade0e272cb0f6c654a868c4bf6390bb') in 0.033 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3beae2398a1b8714e45b38bb5c8944f3 DependenciesID=465bedd9e07bc46ba23fad9aa8558fb0 StaticDependenciesID=d98e406d160192ee8b4e8a485de2ee2f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 101
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-08T05:24:36.9854642Z
+  Time since last request: 0.0009325 seconds.
+  importAddress: GUID: dbcc12b0a2405c74da145b07bfe9285d - Path: Assets/StarSparrow/Prefabs/Examples/StarSparrow36.prefab - Importer: PreviewImporter
+Importing 'GUID: dbcc12b0a2405c74da145b07bfe9285d - Path: Assets/StarSparrow/Prefabs/Examples/StarSparrow36.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: dbcc12b0a2405c74da145b07bfe9285d' -> (Import Result ID: '0dc10a0e9f7c27bef79f786a7bccae4d') in 0.038 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fad98f5d116b398c180a4821e7fd2225 DependenciesID=fd782ac926c46e77fff2b79a8c0c7530 StaticDependenciesID=622b1f45e81b4420f7377bc150987302 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-08T05:24:37.0338212Z
+  Time since last request: 0.0011602 seconds.
+  importAddress: GUID: 738a58bcf60bc0849bca0366e2db7c11 - Path: Assets/StarSparrow/Prefabs/Examples/StarSparrow30.prefab - Importer: PreviewImporter
+Importing 'GUID: 738a58bcf60bc0849bca0366e2db7c11 - Path: Assets/StarSparrow/Prefabs/Examples/StarSparrow30.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 738a58bcf60bc0849bca0366e2db7c11' -> (Import Result ID: '3035bd9b85e4dae200846a9dbbe9acf8') in 0.028 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8a7a73d3f7b82de035f441e3d302ce88 DependenciesID=b5aa967af1e14ee90905c2e01167e0f0 StaticDependenciesID=e3783c3d2d7af015a78d1c5b456c4fa6 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 122
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-08T05:24:37.0722281Z
+  Time since last request: 0.0013077 seconds.
+  importAddress: GUID: 876a8abf851065f47b92622ae857db27 - Path: Assets/StarSparrow/Prefabs/Examples/StarSparrow7.prefab - Importer: PreviewImporter
+Importing 'GUID: 876a8abf851065f47b92622ae857db27 - Path: Assets/StarSparrow/Prefabs/Examples/StarSparrow7.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 876a8abf851065f47b92622ae857db27' -> (Import Result ID: '7727453d69e4bd911a7b6c0c1db81c28') in 0.039 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d223b7af32619189d71776319b15c8ee DependenciesID=192b0ce9d9b53016eda26b03c79c94f3 StaticDependenciesID=937a64aa984d695e05ae515ce420e877 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 104
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-08T05:24:37.121884Z
+  Time since last request: 0.00115 seconds.
+  importAddress: GUID: 8766209168d424b4081563ce9be2c1b8 - Path: Assets/StarSparrow/Prefabs/Examples/StarSparrow31.prefab - Importer: PreviewImporter
+Importing 'GUID: 8766209168d424b4081563ce9be2c1b8 - Path: Assets/StarSparrow/Prefabs/Examples/StarSparrow31.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 8766209168d424b4081563ce9be2c1b8' -> (Import Result ID: 'c2eb7a92e117f44e418126adb8dcb3e8') in 0.034 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0091dc9813d6ab377de2365131ec33af DependenciesID=6b15cdcae2186f9f203281a494df7c39 StaticDependenciesID=cba895d76dc8f0334bc075ee4d7e96fb 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 98
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-08T05:24:37.1677215Z
+  Time since last request: 0.0011263 seconds.
+  importAddress: GUID: 41d081e99ef08c649ac2c8737e635c46 - Path: Assets/StarSparrow/Prefabs/Examples/StarSparrow22.prefab - Importer: PreviewImporter
+Importing 'GUID: 41d081e99ef08c649ac2c8737e635c46 - Path: Assets/StarSparrow/Prefabs/Examples/StarSparrow22.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 41d081e99ef08c649ac2c8737e635c46' -> (Import Result ID: '63fdeef41733174517913334b527533a') in 0.029 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=84caf6c93f54ba46d310d0fb9f4d34b9 DependenciesID=535567480160e3307f37fdf744bbedf5 StaticDependenciesID=86d4ae18134abe73f4fe9550a59e8f5b 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 107
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-08T05:24:37.2077029Z
+  Time since last request: 0.0013438 seconds.
+  importAddress: GUID: 3322c842c425b864ea8eb933bff766ca - Path: Assets/StarSparrow/Prefabs/Examples/StarSparrow17.prefab - Importer: PreviewImporter
+Importing 'GUID: 3322c842c425b864ea8eb933bff766ca - Path: Assets/StarSparrow/Prefabs/Examples/StarSparrow17.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 3322c842c425b864ea8eb933bff766ca' -> (Import Result ID: '344001e38ecaa71d8f42ccc75a3e34be') in 0.037 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0064ae2cd67c1640dc2b1f844fb0dd09 DependenciesID=a8c16b8f04caf5fc53e8ca6226e68701 StaticDependenciesID=663c4df537d02abf705a268bbb83a197 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-08T05:24:37.2559693Z
+  Time since last request: 0.0014903 seconds.
+  importAddress: GUID: 21b471887873bf04aa486f9dd5f0cd62 - Path: Assets/StarSparrow/Prefabs/Examples/StarSparrow13.prefab - Importer: PreviewImporter
+Importing 'GUID: 21b471887873bf04aa486f9dd5f0cd62 - Path: Assets/StarSparrow/Prefabs/Examples/StarSparrow13.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 21b471887873bf04aa486f9dd5f0cd62' -> (Import Result ID: 'c9eb7b6d9138fcf8e1ddc067554a0260') in 0.033 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=76f94e8ba87a21f36860a04d69cbb92c DependenciesID=2bd89dc21b754a337e9e4fc990686eab StaticDependenciesID=231712a6e67da5b239db857b903136ac 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 92
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-08T05:24:37.2998292Z
+  Time since last request: 0.0008361 seconds.
+  importAddress: GUID: ae16fa6df5cf47c4982cb9a872c4fa7d - Path: Assets/StarSparrow/Prefabs/Examples/StarSparrow18.prefab - Importer: PreviewImporter
+Importing 'GUID: ae16fa6df5cf47c4982cb9a872c4fa7d - Path: Assets/StarSparrow/Prefabs/Examples/StarSparrow18.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: ae16fa6df5cf47c4982cb9a872c4fa7d' -> (Import Result ID: '766d4953b819270f578514144be20979') in 0.037 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e8f135d26953f487d7e09172191edbbb DependenciesID=8abd32dbe01a65709d69fe9fd0b4f9c9 StaticDependenciesID=03a7463e7db53ebe699d468430b54ba4 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-08T05:24:37.3460832Z
+  Time since last request: 0.0009949 seconds.
+  importAddress: GUID: 2d88c6537e5833e40a1ae131ce4c90d8 - Path: Assets/StarSparrow/Prefabs/Examples/StarSparrow23.prefab - Importer: PreviewImporter
+Importing 'GUID: 2d88c6537e5833e40a1ae131ce4c90d8 - Path: Assets/StarSparrow/Prefabs/Examples/StarSparrow23.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 2d88c6537e5833e40a1ae131ce4c90d8' -> (Import Result ID: '41d908ae6e0fafbaa1c92bc33e4415bc') in 0.038 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b2dfa224622f327225cf10b4d380b5e5 DependenciesID=e410013f6699b8b21933640a9177b833 StaticDependenciesID=ddd4c78774221a59bfd0ec22a836824f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 110
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-08T05:24:37.3947791Z
+  Time since last request: 0.0015088 seconds.
+  importAddress: GUID: 452d175cf3dff7643ae1e0fff00a9645 - Path: Assets/StarSparrow/Prefabs/Examples/StarSparrow28.prefab - Importer: PreviewImporter
+Importing 'GUID: 452d175cf3dff7643ae1e0fff00a9645 - Path: Assets/StarSparrow/Prefabs/Examples/StarSparrow28.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 452d175cf3dff7643ae1e0fff00a9645' -> (Import Result ID: '37607622e7b374fa0c7366f05a42e028') in 0.037 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=db9ec3a421f40c615a5c82edd44f3141 DependenciesID=e8693eb416d8ef2c9c59cc4df1dd8941 StaticDependenciesID=98312550062f5bde3ab95993b5833708 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 95
+========================================================================
+Received Import Request.
+  Time of request: 2026-11-08T05:24:37.4416379Z
+  Time since last request: 0.0013816 seconds.
+  importAddress: GUID: 0fd4396c20d214d49b3109966bba4591 - Path: Assets/StarSparrow/Prefabs/Examples/StarSparrow38.prefab - Importer: PreviewImporter
+Importing 'GUID: 0fd4396c20d214d49b3109966bba4591 - Path: Assets/StarSparrow/Prefabs/Examples/StarSparrow38.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 0fd4396c20d214d49b3109966bba4591' -> (Import Result ID: 'c2229afc7ebdf1a6d6931b60ab535d7e') in 0.034 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a4a8c73d38adcb5194ffb69bbbe87b9 DependenciesID=d1970332a5e845f66a777d3cc4f2642b StaticDependenciesID=f0cfe2a30a8d5280301065addd9c6cf9 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 95
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 64 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 64 unused Assets / (6.0 MB). Loaded Objects now: 6062.
+Memory consumption went from 322.1 MB to 316.1 MB.
+Total: 10.846300 ms (FindLiveObjects: 0.662900 ms CreateObjectMapping: 0.148000 ms MarkObjects: 8.141400 ms  DeleteObjects: 1.724700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AcceleratorClientConnectionCallback - disconnected - :0
+AssetImportWorker is now disconnected from the server
+Process exiting
+[ExitDontLaunchBugReporter] Exiting without the bug reporter. Application will exit with return code 0
